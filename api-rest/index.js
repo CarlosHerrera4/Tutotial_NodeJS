@@ -11,6 +11,10 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-app.listen(3000, () => {
+app.get('/api/product', (req, res) => {
+	res.send(200, {products: []})
+})
+
+app.listen(3001, () => {
 	console.log(`API REST corriendo en http://localhost:${port}`)
 } )

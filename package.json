@@ -1,0 +1,23 @@
+{
+  "name": "tutorial_nodejs",
+  "version": "1.0.0",
+  "description": "Proyecto de API RESTful con Node.js y Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MundoGister/Tutotial_NodeJS.git"
+  },
+  "author": "Carlos Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MundoGister/Tutotial_NodeJS/issues"
+  },
+  "homepage": "https://github.com/MundoGister/Tutotial_NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

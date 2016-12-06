@@ -17,6 +17,4 @@ app.get('/api/product', (req, res) => {
 
 app.listen(3001, () => {
 	console.log(`API REST corriendo en http://localhost:${port}`)
-} )
-
-
+})

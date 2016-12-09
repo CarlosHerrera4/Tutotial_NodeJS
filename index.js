@@ -17,4 +17,5 @@ app.get('/hola', (req, res) => {
 
 app.listen(3002, () => {
 	console.log(`API REST corriendo en http://localhost:${port}`)
+	
 })

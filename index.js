@@ -4,7 +4,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 const app = express()
-const port = process.env.PORT || 3002
+const port = process.env.PORT || 3001
 
 app.use(bodyParser.urlencoded({
 	extended: false
@@ -15,7 +15,7 @@ app.get('/hola', (req, res) => {
 	res.send(200, {products: []})
 })
 
-app.listen(3002, () => {
+app.listen(3001, () => {
 	console.log(`API REST corriendo en http://localhost:${port}`)
-	
+
 })

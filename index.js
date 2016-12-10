@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 // })
 
 app.get('/api/product', (req, res) => {
-
+	res.send(200, {products: []})
 })
 
 app.get('/api/product/:productId', (req, res) => {
@@ -24,7 +24,8 @@ app.get('/api/product/:productId', (req, res) => {
 })
 
 app.post('/api/product', (req, res) => {
-
+	console.log(req.body)
+	res.status(200).send({message: 'El producto se ha recibido'})
 })
 
 app.put('/api/product/:productId', (req, res) => {
@@ -32,7 +33,7 @@ app.put('/api/product/:productId', (req, res) => {
 })
 
 app.delete('/api/product/:productId', (req, res) => {
-	
+
 })
 
 app.listen(3001, () => {

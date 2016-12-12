@@ -30,6 +30,7 @@ app.post('/api/product', (req, res) => {
 
 app.put('/api/product/:productId', (req, res) => {
 
+
 })
 
 app.delete('/api/product/:productId', (req, res) => {

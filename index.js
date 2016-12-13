@@ -29,8 +29,7 @@ app.post('/api/product', (req, res) => {
 })
 
 app.put('/api/product/:productId', (req, res) => {
-
-
+	console.log(req.body)
 })
 
 app.delete('/api/product/:productId', (req, res) => {

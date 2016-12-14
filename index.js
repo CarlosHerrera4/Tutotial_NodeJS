@@ -33,7 +33,7 @@ app.put('/api/product/:productId', (req, res) => {
 })
 
 app.delete('/api/product/:productId', (req, res) => {
-
+	console.log(req.body)
 })
 
 app.listen(3001, () => {

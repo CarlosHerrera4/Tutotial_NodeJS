@@ -20,7 +20,7 @@ app.get('/api/product', (req, res) => {
 })
 
 app.get('/api/product/:productId', (req, res) => {
-
+	res.send(200)
 })
 
 app.post('/api/product', (req, res) => {
@@ -33,7 +33,7 @@ app.put('/api/product/:productId', (req, res) => {
 })
 
 app.delete('/api/product/:productId', (req, res) => {
-	
+
 })
 
 app.listen(3001, () => {

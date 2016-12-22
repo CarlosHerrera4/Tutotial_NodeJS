@@ -20,7 +20,7 @@ app.get('/api/product', (req, res) => {
 })
 
 app.get('/api/product/:productId', (req, res) => {
-	res.send(200)
+	res.send(200, {})
 })
 
 app.post('/api/product', (req, res) => {

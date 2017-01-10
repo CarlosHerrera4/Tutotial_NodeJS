@@ -17,11 +17,12 @@ app.use(bodyParser.json())
 
 app.get('/api/product', (req, res) => {
 	res.send(200, {products: []})
+	
 })
 
 app.get('/api/product/:productId', (req, res) => {
 	res.send(200, {})
-	
+
 })
 
 app.post('/api/product', (req, res) => {

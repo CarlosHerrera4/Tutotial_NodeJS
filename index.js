@@ -11,13 +11,12 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-// app.get('/hola', (req, res) => {
-// 	res.send(200, {products: []})
-// })
+app.get('/hola', (req, res) => {
+	res.send(200, {products: []})
+})
 
 app.get('/api/product', (req, res) => {
 	res.send(200, {products: []})
-	
 })
 
 app.get('/api/product/:productId', (req, res) => {
